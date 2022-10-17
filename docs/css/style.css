@@ -852,13 +852,35 @@ header .circle {
   font-size: 1.1rem;
   line-height: 1;
   cursor: pointer;
-  border-radius: 2rem;
+  border-radius: .5rem;
   transition: 0.3s;
 }
 
 .filter-btn.active {
   background-color: var(--light-one);
   color: var(--main-color);
+}
+
+.portfolio__card__button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1;
+  border-radius: .5rem;
+}
+
+.button__icon2{
+  font-size: 1.1rem;
+  display: block;
+  padding: .5rem;
+  transition: 0.3s;
+}
+
+.portfolio__card__button:hover .button__icon2{
+  transform: translateX(0.25rem);
 }
 
 .portfolio .square {
