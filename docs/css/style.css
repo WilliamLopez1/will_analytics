@@ -238,9 +238,12 @@ nav {
 nav .container {
   display: flex;
   justify-content: space-between;
-  height: 4rem;
+  height: 3.5rem;
   align-items: center;
-  background-color: #FFF;
+  background-color: rgba(246, 247, 251, 0.8);
+  transition: .5s;
+  backdrop-filter: blur(15px);
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
@@ -283,7 +286,7 @@ nav .container {
 }
 
 .hamburger-menu {
-  width: 2.7rem;
+  width: 12.7rem;
   height: 3rem;
   z-index: 100;
   position: relative;
@@ -341,9 +344,9 @@ nav.open .links {
 
 .header-content .container.grid-2 {
   grid-template-columns: 2.5fr 3.5fr;
-  min-height: calc(100vh - 6rem);
+  min-height: calc(100vh - 4rem);
   padding-bottom: 2.5rem;
-  padding-top: 4rem;
+  padding-top: 8rem;
   text-align: left;
 }
 
@@ -358,7 +361,7 @@ nav.open .links {
 }
 
 .header-content .image .img-element {
-  max-width: 750px;
+  max-width: 600px;
 }
 
 header .points1 {
@@ -2080,7 +2083,8 @@ header .circle {
     height: 100vh;
     top: 0;
     right: 0;
-    background-color: #252525;
+    background-color: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(15px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2342,6 +2346,10 @@ header .circle {
 }
 
 @media (max-width: 560px) {
+
+  nav .container {
+    height: 3rem;
+  }
   .container {
     padding: 0 2rem;
   }
