@@ -862,25 +862,21 @@ header .circle {
 }
 
 .portfolio__card__button {
+  display: block;
   cursor: pointer;
-  border: none;
-  outline: none;
   background-color: transparent;
   font-weight: 500;
   font-size: 1.1rem;
-  line-height: 1;
-  border-radius: .5rem;
+  transition: .3s;
 }
 
-.button__icon2{
-  font-size: 1.1rem;
-  display: block;
-  padding: .5rem;
-  transition: 0.3s;
+.portfolio__card__button:active {
+  color: #FFFFFF;
 }
 
-.portfolio__card__button:hover .button__icon2{
-  transform: translateX(0.25rem);
+.portfolio__card__button:hover{
+  transform: translatex(0.3rem);
+
 }
 
 .portfolio .square {
@@ -992,6 +988,9 @@ header .circle {
 
 .img-description {
   width: 100%;
+  position: relative;
+  transition: .3s;
+  overflow: hidden;
 }
 
 .img-overlay h3 {
