@@ -539,18 +539,10 @@ header .circle {
 }
 
 .skills__icon {
-  margin-right: 0.75rem;
+  margin-right: 1rem;
 }
 
-.skills__title {
-  font-size: 1.25rem;
-  color: var(--dark-one);
-}
 
-.skills__subtitle {
-  font-size: 1rem;
-  color: rgb(120, 76, 251);
-}
 
 .skills__arrow {
   margin-left: auto;
@@ -568,15 +560,25 @@ header .circle {
   margin-bottom: 0.5rem;
 }
 
+.skills__title {
+  font-size: 1.5rem;
+  color: var(--dark-one);
+}
+
+.skills__subtitle {
+  font-size: 1.25rem;
+  color: rgb(120, 76, 251);
+}
+
 .skills__name {
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: 400;
   color: var(--dark-two);
 }
 
 .skills__number {
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: 400;
   color: var(--dark-two);
 }
 
@@ -1699,6 +1701,22 @@ header .circle {
     font-size: 1rem;
   }
 
+  .skills__title {
+    font-size: 1.25rem;
+  }
+  
+  .skills__subtitle {
+    font-size: 1rem;
+  }
+  
+  .skills__name {
+    font-size: 1rem;
+  }
+  
+  .skills__number {
+    font-size: 1rem;
+  }
+
   .btn.small {
     padding: 0.65rem 1.6rem;
     font-size: 0.7rem;
@@ -2412,6 +2430,22 @@ header .circle {
 
   .about__info-name {
     font-size: .92rem;
+  }
+
+  .skills__title {
+    font-size: 1.125rem;
+  }
+  
+  .skills__subtitle {
+    font-size: 0.92rem;
+  }
+  
+  .skills__name {
+    font-size: 0.92rem;
+  }
+  
+  .skills__number {
+    font-size: 0.92rem;
   }
 
   .overlay.overlay-lg .shape {
