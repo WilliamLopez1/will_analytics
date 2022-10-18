@@ -418,9 +418,9 @@ header .circle {
 
 .letters {
   position: absolute;
-  width: 13.5%;
-  top: -5px;
-  left: 15px;
+  width: 25%;
+  top: -3px;
+  left: 5px;
   opacity: 0.06;
 }
 
