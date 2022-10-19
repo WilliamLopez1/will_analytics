@@ -777,23 +777,26 @@ header .circle {
   margin: 0.45rem 0.4rem;
   padding: 0.85rem 1.8rem;
   color: var(--light-one);
-  text-transform: uppercase;
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 1;
   cursor: pointer;
   border-radius: .5rem;
   transition: 0.3s;
 }
 
+.filter-btn:hover{
+  transform: translateY(-4px);
+}
+
 .filter-btn.active {
   background-color: var(--light-one);
   color: var(--main-color);
+  transform: translateY(0px);
 }
 
 .portfolio__card__button {
   display: block;
-  cursor: pointer;
   background-color: transparent;
   font-weight: 500;
   font-size: 1.1rem;
@@ -859,10 +862,10 @@ header .circle {
 .gallery-image {
   position: relative;
   overflow: hidden;
-  border-radius: 16px;
+  border-radius: 5%;
   height: 330px;
   width: 100%;
-  cursor: pointer;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .gallery-image img {
@@ -874,6 +877,7 @@ header .circle {
   transform: translate(-50%, -50%);
   transform-origin: center;
   transition: 0.5s;
+
 }
 
 .gallery-image .img-overlay {
@@ -925,8 +929,7 @@ header .circle {
 
 .img-overlay h3 {
   font-weight: 600;
-  text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .img-overlay h5 {
@@ -2168,8 +2171,7 @@ header .circle {
     height: 100vh;
     top: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.95);
-    backdrop-filter: blur(15px);
+    background-color: rgba(0, 0, 0, 0.85);
     display: flex;
     align-items: center;
     justify-content: center;
