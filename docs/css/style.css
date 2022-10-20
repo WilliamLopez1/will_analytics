@@ -1908,7 +1908,7 @@ header .circle {
 
   .filter-btn {
     padding: 0.6rem 1.45rem;
-    font-size: 0.7rem;
+    font-size: 1.25rem;
   }
 
   .about img {
@@ -2491,6 +2491,18 @@ header .circle {
   
   .qualification__calendar {
     font-size: .92rem;
+  }
+
+  .filter-btn {
+    font-size: 1.125rem;
+  }
+
+  .img-overlay h3 {
+    font-size: 1rem;
+  }
+
+  .portfolio__card__button {
+    font-size: 0.92rem;
   }
 
   .overlay.overlay-lg .shape {
