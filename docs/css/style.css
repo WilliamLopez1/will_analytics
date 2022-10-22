@@ -1359,29 +1359,35 @@ header .circle {
 .contact-box {
   width: 100%;
   background-color: var(--light-one);
-  justify-content: center;
-  border-radius: 1.5rem;
-  padding: 5.5rem 2rem;
+  width: 100%;
+  border-radius: 45px;
+  padding: 5.5rem 4.5rem;
   align-self: center;
 
 }
 
 .contact-info {
-  padding: auto;
-  
+  margin: auto;
 }
 /*
 .contact-form {
   padding-left: 2rem;
 }
 */
+.contact-info .title{
+  left: 0;
+  transform: initial;
+}
 
 .information-wrap {
   margin-top: 2rem;
 }
 
-.information {  
-  margin: 1rem; 
+.information {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  padding: 1rem;
 }
 /*
 .information:not(:last-child) {
@@ -1396,20 +1402,18 @@ header .circle {
   background-color: var(--main-color);
   color: var(--light-one);
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-right: 1rem;
-}
-
-.info-text {
-  font-size: 1.5rem;
-  display: inline-block;
 }
 
 .contact-icon i {
   line-height: 50px;
 }
 
-
+.info-text {
+  font-size: 1.25rem;
+  display: inline-block;
+}
 /*
 .contact-form .title:after {
   display: none;
@@ -2506,27 +2510,6 @@ header .circle {
     font-size: 0.92rem;
   }
 
-  .contact-icon {
-    min-width: 30px;
-    height: 30px;
-    display: inline-block;
-    border-radius: 50%;
-    font-size: .95rem;
-    margin-right: .7rem;
-  }
-  
-  .info-text {
-    font-size: .92rem;
-    display: inline-block;
-  }
-  .contact-icon i {
-    line-height: 30px;
-  }
-
-  .information {
-    margin: 0;
-  }
-
   .overlay.overlay-lg .shape {
     height: 28px;
   }
@@ -2594,8 +2577,8 @@ header .circle {
   }
 
   .contact-box {
-    padding: 3.5rem 1rem;
-    border-radius: 15px;
+    padding: 2.3rem 2rem;
+    border-radius: 30px;
   }
 
   .contact {
@@ -2603,7 +2586,7 @@ header .circle {
   }
 
   .contact-form .row {
-    grid-column-gap: 0.7rem;
+    grid-column-gap: 0.3rem;
   }
 
   .contact-input {
