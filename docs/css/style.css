@@ -2444,10 +2444,6 @@ header .circle {
     height: 3rem;
   }
 
-  nav {
-    position: fixed;
-  }
-
   .container {
     padding: 0 2rem;
   }
