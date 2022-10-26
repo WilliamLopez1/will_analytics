@@ -866,7 +866,7 @@ header .circle {
   border-radius: 5%;
   height: 330px;
   width: 100%;
-  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
+  transition: .3s;
 }
 
 .gallery-image img {
@@ -939,12 +939,17 @@ header .circle {
   font-weight: 300;
 }
 
+.gallery-image:hover {
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
 .gallery-image:hover .img-overlay {
   opacity: 1;
 }
 
 .gallery-image:hover img {
   transform: translate(-50%, -50%) scale(1.1);
+
 }
 
 .more-folio {
@@ -1008,6 +1013,7 @@ header .circle {
 
 .card-wrap:hover .card {
   transform: translateY(-15px);
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .card-wrap:hover .card:after {
@@ -1065,8 +1071,8 @@ header .circle {
 }
 
 .record-circle {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   margin: 0 auto;
   border: 4px solid var(--light-one);
@@ -1074,6 +1080,10 @@ header .circle {
   flex-direction: column;
   justify-content: center;
   color: var(--light-one);
+  transition: .3s;
+}
+.record-circle:hover{
+  transform: translateY(-5px);
 }
 
 .record-circle.active {
@@ -1082,7 +1092,7 @@ header .circle {
   box-shadow: 0 0 0 15px rgb(255, 255, 255, 0.5);
 }
 
-.number {
+.record__icon {
   font-weight: 400;
   font-size: 2.35rem;
 }
@@ -1222,6 +1232,8 @@ header .circle {
 
 .blog-card:hover {
   transform: translateY(-15px);
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
+
 }
 
 .blog-card:hover:after {
