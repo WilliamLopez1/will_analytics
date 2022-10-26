@@ -2579,12 +2579,16 @@ header .circle {
   }
 
   .contact-box {
-    padding: 2.3rem 2rem;
+    padding: 1rem 1rem;
     border-radius: 30px;
   }
 
   .contact {
     background-size: 200%;
+  }
+
+  .contact-form{
+    display: none;
   }
 
   .contact-form .row {
@@ -2596,6 +2600,15 @@ header .circle {
     padding: 0.8rem 1.4rem;
     margin: 0.25rem 0;
   }
+
+  .info-text{
+    font-size: 0.92rem;
+  }
+
+  .information{
+    padding: .1rem;
+  }
+
 }
 
 
