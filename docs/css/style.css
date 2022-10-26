@@ -251,6 +251,8 @@ nav .container {
   width: 80px;
   display: flex;
   align-items: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 
 .links ul {
@@ -287,7 +289,7 @@ nav .container {
 }
 
 .hamburger-menu {
-  width: 12.7rem;
+  width: 2.7rem;
   height: 3rem;
   z-index: 100;
   position: relative;
@@ -2150,6 +2152,7 @@ header .circle {
 
   .hamburger-menu {
     display: flex;
+    
   }
 
   .header-content {
@@ -2442,6 +2445,11 @@ header .circle {
   nav .container {
     height: 3rem;
   }
+
+  nav {
+    position: fixed;
+  }
+
   .container {
     padding: 0 2rem;
   }
