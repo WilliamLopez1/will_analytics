@@ -1435,6 +1435,10 @@ header .circle {
 .contact-form .title {
   margin: 0;
 }
+
+.contact-form{
+  display: none;
+}
 /*
 .contact-form .row {
   width: 100%;
