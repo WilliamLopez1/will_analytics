@@ -429,6 +429,15 @@ header .circle {
   opacity: 0.06;
 }
 
+.home__blob {
+  width: 100%;
+  fill: var(--main-color);
+}
+
+.home__blob-img {
+  width: 170px;
+}
+
 /* End header */
 
 /* ========================== ABOUT ME ================================*/
