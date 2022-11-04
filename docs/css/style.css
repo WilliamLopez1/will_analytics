@@ -2761,6 +2761,39 @@ header .circle {
     padding: .1rem;
   }
 
+  .services__modal-service {
+    display: flex;
+    font-size: 1.25rem;
+    color: var(--dark-two);
+  }
+
+  .services__modal-service p{
+    display: flex;
+    font-size: 0.92rem;
+    color: var(--dark-two);
+  }
+  
+  .services__modal-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  .services__modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.25rem;
+    color: var(--main-color);
+    cursor: pointer;
+  }
+  
+  .services__modal-icon {
+    font-size: 1.25rem;
+    color: var(--main-color);
+    margin-right: 0.25rem;
+  }
+
 }
 
 
