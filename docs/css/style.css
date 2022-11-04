@@ -2762,9 +2762,7 @@ header .circle {
   }
 
   .services__modal-service {
-    display: flex;
     font-size: 1.25rem;
-    color: var(--dark-two);
   }
 
   .services__modal-service p{
