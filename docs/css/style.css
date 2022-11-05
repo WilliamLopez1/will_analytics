@@ -1643,9 +1643,10 @@ header .circle {
   padding: 6rem 0;
 }
 
-.footer .grid-4 {
+.footer .grid-2 {
   display: grid;
-  grid-template-columns: 3.5fr 2fr 2fr 3fr;
+  grid-template-columns: 6fr 6fr;
+  text-align: center;
 }
 
 .grid-4-col {
@@ -2528,7 +2529,7 @@ header .circle {
     top: 25%;
   }
 
-  .footer .grid-4 {
+  .footer .grid-2 {
     grid-template-columns: repeat(2, 1fr);
     max-width: 500px;
     margin: 0 auto;
