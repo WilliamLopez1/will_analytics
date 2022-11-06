@@ -2461,6 +2461,7 @@ header .circle {
 
   .about .column-1:before {
     font-size: 5rem;
+    display: none;
   }
 
   .about .points {
