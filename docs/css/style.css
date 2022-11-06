@@ -439,6 +439,13 @@ header .circle {
   width: 155px;
 }
 
+.home_project_1-img{
+  border-radius: 5%;
+  max-height: 550px;
+  z-index: 1000;
+  margin-bottom: 3.5rem;
+}
+
 /* End header */
 
 /* ========================== ABOUT ME ================================*/
