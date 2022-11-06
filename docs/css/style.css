@@ -521,7 +521,6 @@ header .circle {
 }
 
 .about .column-1:before {
-  content: "About";
   position: absolute;
   font-size: 8rem;
   font-weight: 800;
@@ -541,6 +540,13 @@ header .circle {
 
 .home__blob-img2 {
   width: 155px;
+}
+
+.intro_project_1-img{
+  border-radius: 5%;
+  max-height: 550px;
+  z-index: 1000;
+  margin-bottom: 1rem;
 }
 
 /* End About */
@@ -2461,7 +2467,6 @@ header .circle {
 
   .about .column-1:before {
     font-size: 5rem;
-    display: none;
   }
 
   .about .points {
