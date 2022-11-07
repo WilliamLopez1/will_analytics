@@ -1876,7 +1876,7 @@ header .circle {
     font-size: 1.2rem;
   }
 
-  .btn {
+  .btn, .btn-p {
     padding: 0.75rem 1.7rem;
     font-size: 0.8rem;
   }
