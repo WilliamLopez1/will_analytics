@@ -704,42 +704,6 @@ header .circle {
     transform: rotate(-180deg);
 }
 
-.copy-text-p {
-  position: relative;
-  padding: 10px;
-  background: #FFFFFF;
-  border: 1px solid #DDDDDD;
-  border-radius: 10px;
-  display: flex; 
-  width: 100%;
-}
-
-.copy-text-p input.text-p{
-  padding: 10px;
-  font-size: 18px;
-  color: #555;
-  border: none;
-  outline: none;
-  margin: auto;
-}
-
-.copy-text-p button {
-  padding: 10px;
-  background: var(--main-color);
-  color: #FFFFFF;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.copy-text-p button:active{
-  background-color: var(--light-two);
-  color: var(--main-color);
-  border: var(--main-color);
-  border-color: var(--main-color);
-}
 
 
 /*==================== QUALIFICATION ====================*/
